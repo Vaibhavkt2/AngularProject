@@ -1,8 +1,8 @@
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    border: 1px solid rgb(67, 193, 53);
+    border-radius: 10px;
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
@@ -19,18 +19,22 @@ input[type=text], select, textarea {
   }
   
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #b0d4da;
+    border: 3px solid rgb(rgb(39, 30, 30), rgb(40, 127, 40), rgb(103, 103, 194));
+    border-radius: 30px;
+    box-sizing: border-box;
   }
   
   .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
+    border-radius: 25px;
+    background-color: #b0d4da;
+    padding: 25px;
+
   }
 
   h1{
     font-size:2000;
-    background-color: red;
+    background-color: rgb(31, 44, 214);
     color: #f2f2f2;
     border-radius: 20px;
     text-align: center;
@@ -39,7 +43,7 @@ input[type=text], select, textarea {
 
   h5{
     font-size: small;
-    color: blue;
+    color: red;
     text-align: right;
   }
 
